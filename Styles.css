@@ -2,9 +2,8 @@
 img {
     max-width: 100%;
     max-height: 100%;
-    border-radius: 10%;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    margin: auto;
+
 }
 .LeftSideImage {
     background-image: url(nutsAndBolts.jpg);
@@ -13,6 +12,7 @@ img {
     height: 100vh;
     position: fixed;
     opacity: 0.7;
+    padding-right: 5vh;
 }
 
 .RightSideImage {
@@ -23,10 +23,6 @@ img {
     position: fixed;
     left: 90%;
     opacity: 0.7;
-}
-.mainBody {
-    padding-left: 10vw;
-    padding-right: 10vw;
 }
 
 .Logo   {
@@ -40,14 +36,11 @@ img {
 
 }
 
+
+
 body {
     background-color: rgba(0, 43, 120,0.6);
     color: aliceblue;
-}
-
-.description {
-    padding-left: 5vw;
-    padding-right: 5vw;
 }
 
 
@@ -76,6 +69,10 @@ p {
     padding-top: 5vh;
     padding-bottom: 5vh ;
 }
-.btn {
-    left: 70%
+.containerCarousel {
+    width: 90% !important;
+    height : 30vh;
+    padding-left: 10vw;
+    padding-bottom: 40vh;
 }
+
